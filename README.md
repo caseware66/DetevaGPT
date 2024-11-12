@@ -25,8 +25,8 @@ All the values listed in our table are F1 scores scores to consider the overall 
 | DetevaGPT       | 99.8   | 99.75        | DetevaGPT       | 99.5   | 99.2          |
 
 # Performance Comparison Across Datasets for Different Methods
-| Method     | GPT-2 | GPT-3.5 | GPT-4o | GPT-3.5-Multi | GPT-4o-Multi | Qwen2 | LLaMa | Human |
-| -----------| --------------- | -------| --------------| -------------| ------| ------| ------|
+|  Method    | GPT-2 | GPT-3.5 | GPT-4o | GPT-3.5-Multi | GPT-4o-Multi | Qwen2 | LLaMa | Human |
+| -----------| ------|-------- | -------| --------------| -------------| ------| ------| ------|
 | Seq-RoBERTa| 88.8  | 91.0    | 97.3   | 39.2          | 82.2         | 77.9  | 80.6  | 92.2  |
 | SeqXGPT    | 90.1  | 81.1    | 76.9   | 55.9          | 61.4         | 75.5  | 61.8  | 96.4  |
 | DetevaGPT  | 93.2  | 88.1    | 98.8   | 85.9          | 93.4         | 95.6  | 92.1  | 97.3  |
