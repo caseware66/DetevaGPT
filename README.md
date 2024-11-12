@@ -16,17 +16,21 @@ To address the challenges of sentence-level AI-generated text detection, we inte
 
 # Performance
 All the values listed in our table are F1 scores scores to consider the overall performance. 
+
+# Binary classification test result sbasedon GPT-4o and GPT-4o-Multi and GPT-3.5 and GPT-3.5-Multi data
 |     Method      | GPT-4o | GPT-4o-Multi |  Method         | GPT-3.5| GPT-3.5-Multi |
 | --------------- | -------| -------------| --------------- | -------| --------------|
 | Fast-Detect-gpt | 59.2   | 53.0         | Fast-Detect-gpt | 56.0   | 42.6          |
 | SeqXGPT         | 96.8   | 90.7         |  SeqXGPT        | 95.2   | 82.0          |
 | DetevaGPT       | 99.8   | 99.75        | DetevaGPT       | 99.5   | 99.2          |
 
-| Column 1 Header | Column 2 Header | Column 3 Header | Column 4 Header | Column 5 Header | Column 6 Header |
-| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 | Row 1, Column 4 | Row 1, Column 5 | Row 1, Column 6 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 | Row 2, Column 4 | Row 2, Column 5 | Row 2, Column 6 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 | Row 3, Column 4 | Row 3, Column 5 | Row 3, Column 6 |
+# Performance Comparison Across Datasets for Different Methods
+| Method     | GPT-2 | GPT-3.5 | GPT-4o | GPT-3.5-Multi | GPT-4o-Multi | Qwen2 | LLaMa | Human |
+| -----------| --------------- | -------| --------------| -------------| ------| ------| ------|
+| Seq-RoBERTa| 88.8  | 91.0    | 97.3   | 39.2          | 82.2         | 77.9  | 80.6  | 92.2  |
+| SeqXGPT    | 90.1  | 81.1    | 76.9   | 55.9          | 61.4         | 75.5  | 61.8  | 96.4  |
+| DetevaGPT  | 93.2  | 88.1    | 98.8   | 85.9          | 93.4         | 95.6  | 92.1  | 97.3  |
+
 
 # Training Loss vs Epochs
 
