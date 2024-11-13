@@ -44,6 +44,7 @@ The command is as follows:
 bash main.sh
 ```
 # SeqXGPT and Seq-RoBERTa
-We refer to the [SeqXGPT](https://github.com/Jihuai-wpy/SeqXGPT)
-
+We refer to the [SeqXGPT](https://github.com/Jihuai-wpy/SeqXGPT) 
+**SeqXGPT** first introduce a sentence-level detection challenge by synthesizing a dataset that contains documents that are polished with LLMs,Then  propose Sequence X (Check) GPT, a novel method that utilizes log probability lists from white-box LLMs as features for sentence-level AIGT detection.
+**Seq-RoBERTa** Seq-RoBERTa implement sentence-level AIGT detection with RoBERTa based on the sequence labeling task. 
 
