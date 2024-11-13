@@ -27,7 +27,8 @@ python ./dataset/gen_features.py --get_en_features_multithreading
 # Models
 # DetevaGPT
 The main model code is in model.py,--data_path is the extracting the path for feature preservation. Set your own train_path and test_path. The training command is as follows:
-# split train / test dataset and then train.
+```plaintext
+split train / test dataset and then train.
 python3 ./DetevaGPT/train.py --split_dataset  --data_path '../dataset/data_new'  --train_path 'train.jsonl'   --test_path 'test.jsonl' --gpu '0,1'
 
 # train
@@ -35,6 +36,14 @@ python3 ./DetevaGPT/train.py --train_path 'train.jsonl'   --test_path 'test.json
 
 # test
 python3 ./DetevaGPT/train.py --train_path 'train.jsonl'   --test_path 'test.jsonl' --gpu '0,1' --do_test
-
+```
 # faste-detect-gpt
+We refer to the [faste-detect-gpt](https://github.com/baoguangsheng/fast-detect-gpt) The black box used by fast detect gpt evaluate models.
+The command is as follows:
+```plaintext
+bash main.sh
+```
+# SeqXGPT and Seq-RoBERTa
+We refer to the [SeqXGPT](https://github.com/Jihuai-wpy/SeqXGPT)
+
 
