@@ -48,3 +48,4 @@ We refer to the [SeqXGPT](https://github.com/Jihuai-wpy/SeqXGPT)
 **SeqXGPT** first introduce a sentence-level detection challenge by synthesizing a dataset that contains documents that are polished with LLMs,Then  propose Sequence X (Check) GPT, a novel method that utilizes log probability lists from white-box LLMs as features for sentence-level AIGT detection.  
 **Seq-RoBERTa** Seq-RoBERTa implement sentence-level AIGT detection with RoBERTa based on the sequence labeling task.   
 
+修改
